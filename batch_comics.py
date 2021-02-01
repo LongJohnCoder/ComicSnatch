@@ -3,9 +3,8 @@ Script to loop over chrome_screenshot
 """
 from chrome_screenshot import GrabComics
 
-comic_urls = [r'https://read.marvel.com/#book/44041',
-              r'https://read.marvel.com/#book/44299',
-              r'https://read.marvel.com/#book/44527',
+comic_urls = [r'https://read.marvel.com/#/book/48246',
+              r'https://read.marvel.com/#/book/43227,
               ]
 
 for i, comic_url in enumerate(comic_urls):
